@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+			the project for ble. 
                    DESC
 
   s.homepage     = "https://github.com/MaieLee/CLBLE"
@@ -83,10 +84,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "CLBLE/Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "CLBLE/**/*"
+  # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files ="CLBLE/Classes/**/*.h"
+  s.public_header_files ="CLBLE/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
